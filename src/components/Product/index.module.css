@@ -1,0 +1,51 @@
+.product {
+  height: 270px;
+  flex-basis: 200px;
+  background-color: #286DF1;
+  border-radius: 10px;
+}
+
+.productImage {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.description {
+  padding: 5px;
+}
+
+.description span {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.description p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
+
+.description button {
+  margin-top: 5px;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #0E141B;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: sans-serif;
+  font-style: normal;
+  cursor: pointer;
+  color: beige;
+}
+
+.description button:hover {
+  opacity: 0.6;
+}
