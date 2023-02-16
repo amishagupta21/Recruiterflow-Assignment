@@ -3,6 +3,36 @@
   flex-basis: 200px;
   background-color: #286DF1;
   border-radius: 10px;
+  transform: scale(1);
+  animation: scale 0.5s linear;
+}
+
+@keyframes scale {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+.product2 {
+  height: 270px;
+  flex-basis: 200px;
+  background-color: #286DF1;
+  border-radius: 10px;
+  transform: scale(0);
+  animation: shrink 0.5s linear;
+}
+
+@keyframes shrink {
+  from{
+    transform:rotate(0deg) scale(1);
+    
+  }
+  to{
+    transform: rotate(360deg)  scale(0);
+  }
 }
 
 .productImage {
