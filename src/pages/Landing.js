@@ -67,7 +67,7 @@ function Landing() {
     })
   }
   useEffect(() => {
-    getproducts()
+    getproducts() 
   }, [])
 
   return (
